@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-   //DECLARACAO DAS VARIAVEIS
+   //DECLARA AS VARIAVEIS
    int n1, n2;
-   //SOLICITA AO USUARIO QUE INFORME OS VALORES
-   printf("Faz a soma de dois numeros:\n");
-   printf("Digite os dois valores.\n");
-   //OBTEM OS VALORES
+   //SOLICITA OS VALORES
+   printf("CALCULA SOMA DE DOIS NUMEROS.\n");
+   printf("DIGITE OS NUMEROS.\n");
+   //LE A ENTRADA
    scanf("%i %i", &n1, &n2);
-   //IMPRIME OS VALORES SOMADOS.
+   //IMPRIME O RESULTADO
    printf("SOMA = %i\n", n1+n2);
    return 0;
-
+}
