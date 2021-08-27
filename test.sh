@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # RECEBE E VAI DIRETORIO PARA EXECUTAR O TESTE
-./test.sh exe01
 DIR=$1
 pushd $DIR > /dev/null
 # COMPILA O CODIGO
